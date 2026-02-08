@@ -4,7 +4,7 @@
 
 const BASE_URL = window.location.origin.includes("localhost")
   ? "http://localhost:3001"
-  : "https://registro214.onrender.com";
+  : "https://registro72.onrender.com";
 
 /* =========================
    FUNCION PARA MAYUSCULAS
