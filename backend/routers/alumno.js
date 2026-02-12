@@ -141,11 +141,6 @@ if (resultado.existe) {
 }
 
 
-    if (existe?.registro_completado) {
-      return res.status(400).json({
-        message: "Este alumno ya completó su registro"
-      });
-    }
 
     // 🎓 GENERAR FOLIO AQUÍ (SOLO UNA VEZ)
     const folio = await generarFolio();
